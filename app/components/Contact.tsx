@@ -20,7 +20,8 @@ export default function Contact() {
             <h3 className="text-lg font-semibold">Direct contact</h3>
             <ul className="mt-4 space-y-3 text-sm text-slate-300">
               <li>
-                <span className="font-medium text-white">Name:</span> Victor Sumbo
+                <span className="font-medium text-white">Name:</span> Victor
+                Sumbo
               </li>
               <li>
                 <span className="font-medium text-white">Phone:</span>{" "}
@@ -46,8 +47,9 @@ export default function Contact() {
           <div className="rounded-2xl border border-cyan-400/20 bg-gradient-to-br from-cyan-500/10 to-emerald-500/10 p-6 text-left">
             <h3 className="text-lg font-semibold">Prefer a quick reply?</h3>
             <p className="mt-3 text-sm leading-relaxed text-slate-300">
-              I&apos;m happy to chat over email or WhatsApp. If you&apos;re reaching
-              out, a few details help a lot: your name, project context, and timeline.
+              I&apos;m happy to chat over email or WhatsApp. If you&apos;re
+              reaching out, a few details help a lot: your name, project
+              context, and timeline.
             </p>
             <div className="mt-5 flex flex-wrap gap-3">
               <a
