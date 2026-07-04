@@ -23,10 +23,10 @@ export default function Hero() {
             Explore Technology
           </a>
           <a
-            href="/ventures"
+            href="/focus"
             className="rounded-xl border border-white/20 bg-white/5 px-5 py-3 text-sm font-semibold transition hover:border-cyan-300/60 hover:bg-cyan-400/10"
           >
-            View Ventures
+            View Focus
           </a>
         </div>
 

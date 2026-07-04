@@ -11,14 +11,14 @@ const ventures = [
     focus: "Turning concepts into responsive, high-quality interfaces",
     summary:
       "Building modern frontend experiences with React, Next.js, and TypeScript to create fast, reliable, and engaging user journeys.",
-    stage: "In Progress",
+    stage: "Active",
   },
   {
     name: "Backend Development",
     focus: "Building dependable systems behind the scenes",
     summary:
       "Designing robust backend solutions with strong architecture, secure logic, and scalable services that support real business needs.",
-    stage: "Developing",
+    stage: "Active",
   },
 ];
 
@@ -33,7 +33,7 @@ export default function VenturesPage() {
       <div className="relative mx-auto max-w-6xl">
         <section className="rounded-3xl border border-white/10 bg-gradient-to-br from-slate-900 via-slate-900/95 to-cyan-950/55 p-8 shadow-2xl shadow-cyan-950/40 md:p-12">
           <p className="text-sm font-semibold uppercase tracking-[0.18em] text-cyan-300">
-            Focus
+            About
           </p>
           <h1 className="mt-3 text-4xl font-bold tracking-tight md:text-5xl">
             Where strategy, design, and technology meet to create real impact

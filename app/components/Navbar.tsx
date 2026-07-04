@@ -12,8 +12,8 @@ export default function Navbar() {
           <Link href="/technology" className="hover:text-white">
             Technology
           </Link>
-          <Link href="/ventures" className="hover:text-white">
-            Ventures
+          <Link href="/focus" className="hover:text-white">
+            Focus
           </Link>
           <a href="/#contact" className="hover:text-white">
             Contact
