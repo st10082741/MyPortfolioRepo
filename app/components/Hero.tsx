@@ -33,7 +33,7 @@ export default function Hero() {
         {/* CHANGED: Branded highlight metrics for quick professional credibility. */}
         <div className="mt-10 grid gap-4 sm:grid-cols-3">
           <article className="rounded-xl border border-cyan-300/25 bg-cyan-500/10 p-4">
-            <p className="text-2xl font-bold">5+</p>
+            <p className="text-2xl font-bold">1+</p>
             <p className="mt-1 text-sm text-cyan-100/90">
               Years across multiple sectors
             </p>
