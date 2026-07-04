@@ -102,6 +102,15 @@ export default function TechnologyPage() {
             architecture, maintainability, and measurable business outcomes.
           </p>
 
+          <div className="mt-6 flex flex-wrap gap-3">
+            <a
+              href="/focus"
+              className="rounded-xl bg-gradient-to-r from-cyan-600 to-emerald-500 px-5 py-3 text-sm font-semibold text-white shadow-lg shadow-cyan-200 transition hover:scale-[1.02] dark:shadow-none"
+            >
+              See My Focus
+            </a>
+          </div>
+
           {/* Quick stat cards for visual credibility and summary. */}
           <div className="mt-8 grid gap-4 sm:grid-cols-3">
             <div className="rounded-xl border border-cyan-200 bg-cyan-50/80 p-4 shadow-sm shadow-cyan-100 dark:border-white/10 dark:bg-slate-800/60 dark:shadow-none">

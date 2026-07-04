@@ -42,6 +42,21 @@ export default function VenturesPage() {
             This is where ideas turn into thoughtful products, reliable systems,
             and practical solutions built with purpose.
           </p>
+
+          <div className="mt-8 flex flex-wrap gap-3">
+            <a
+              href="/technology"
+              className="rounded-xl bg-gradient-to-r from-cyan-500 to-emerald-500 px-5 py-3 text-sm font-semibold text-slate-950 transition hover:scale-[1.02]"
+            >
+              View Technology Profile
+            </a>
+            <a
+              href="mailto:bachisumbo@gmail.com?subject=Portfolio%20Inquiry"
+              className="rounded-xl border border-white/20 bg-white/5 px-5 py-3 text-sm font-semibold transition hover:border-cyan-300/60 hover:bg-cyan-400/10"
+            >
+              Email Me
+            </a>
+          </div>
         </section>
 
         <section className="mt-14">
