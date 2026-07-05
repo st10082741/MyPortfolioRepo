@@ -186,28 +186,28 @@ export const translations = {
       currentFocus: "Current Focus",
       outcomesHeading: "Aligned with outcomes",
       outcomesDescription:
-        "Every venture is structured around clear delivery goals, measurable impact, and maintainable technical foundations.",
+        "I prioritize solutions that are useful, reliable, and aligned with real business needs.",
       cards: [
         {
           name: "Web Design & Product Direction",
           focus: "Crafting clear, user-centered digital experiences",
           summary:
             "Bringing ideas to life through thoughtful interface design, strong product thinking, and polished digital experiences that feel modern and intuitive.",
-          stage: "Active",
+          stage: "Skilled",
         },
         {
           name: "Frontend Development",
           focus: "Turning concepts into responsive, high-quality interfaces",
           summary:
             "Building modern frontend experiences with React, Next.js, and TypeScript to create fast, reliable, and engaging user journeys.",
-          stage: "Active",
+          stage: "Proficient",
         },
         {
           name: "Backend Development",
           focus: "Building dependable systems behind the scenes",
           summary:
             "Designing robust backend solutions with strong architecture, secure logic, and scalable services that support real business needs.",
-          stage: "Active",
+          stage: "Skilled",
         },
       ],
     },
@@ -374,14 +374,14 @@ export const translations = {
       currentFocus: "Foco Atual",
       outcomesHeading: "Alinhado com resultados",
       outcomesDescription:
-        "Cada iniciativa é estruturada em torno de metas de entrega claras, impacto mensurável e fundamentos técnicos sustentáveis.",
+        "Dou prioridade a soluções úteis, confiáveis e alinhadas com as necessidades reais de negócio.",
       cards: [
         {
           name: "Direção de Design Web & Produto",
           focus: "Criar experiências digitais claras e centradas no utilizador",
           summary:
             "Dar vida às ideias através de um design de interface cuidadoso, pensamento de produto sólido e experiências digitais polidas que parecem modernas e intuitivas.",
-          stage: "Ativo",
+          stage: "Qualificado",
         },
         {
           name: "Desenvolvimento Frontend",
@@ -389,14 +389,14 @@ export const translations = {
             "Transformar conceitos em interfaces responsivas e de alta qualidade",
           summary:
             "Construir experiências frontend modernas com React, Next.js e TypeScript para criar jornadas de utilizador rápidas, fiáveis e envolventes.",
-          stage: "Ativo",
+          stage: "Proficiente",
         },
         {
           name: "Desenvolvimento Backend",
           focus: "Construir sistemas fiáveis por trás das cenas",
           summary:
             "Desenhar soluções backend robustas com arquitetura forte, lógica segura e serviços escaláveis que apoiam necessidades reais de negócio.",
-          stage: "Ativo",
+          stage: "Qualificado",
         },
       ],
     },
