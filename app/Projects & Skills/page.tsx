@@ -37,6 +37,15 @@ const projects = [
     image: "/projects/KipidoPic.png",
     href: "https://kipidowebapp20250811114617-grepejakgchaceh5.australiacentral-01.azurewebsites.net/",
   },
+  // CHANGED: Added Materfamilia to keep this route aligned with the main projects pages.
+  {
+    title: "Website da Materfamilia",
+    description:
+      "A Materfamilia e uma empresa social dedicada ao empoderamento de agregados familiares chefiados por mulheres (FHH16), por meio de intervencoes juridicas, financeiras e de coaching. O objetivo e restaurar a estabilidade financeira, ampliar o acesso a justica e reduzir a vulnerabilidade a violencia baseada no genero.",
+    tech: ["C#", "ASP.NET Core", "CSS"],
+    image: "/projects/mater.png",
+    href: "https://materfamilia-hpdvhschf6frb5cy.canadacentral-01.azurewebsites.net/",
+  },
 ];
 
 // Group skills by category so they can be rendered in separate cards.

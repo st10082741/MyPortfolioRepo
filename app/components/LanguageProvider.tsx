@@ -172,13 +172,14 @@ export const translations = {
           image: "/projects/Dyakana.PNG",
           href: "https://dykanawebapp20250808122525-gqenasejgmhqfgga.canadacentral-01.azurewebsites.net/",
         },
+        // CHANGED: Added Materfamilia so it renders on the /technology page in English.
         {
           title: "Materfamilia Website",
           description:
-            "Materfamilia is a social enterprise dedicated to empowering female-headed households through legal, financial, and coaching interventions. It aims to restore financial stability, improve access to justice, and reduce vulnerability to gender-based violence.",
-          tech: ["C#", "ASP.NET Core", "Azure", "SQL"],
-          image: "/projects/Dyakana.PNG",
-          href: "https://materfamilia-hpdvhschf6frb5cy.canadacentral-01.azurewebsites.net",
+            "Materfamilia is a social enterprise focused on empowering female-headed households (FHH16) through legal, financial, and coaching interventions to restore financial stability, expand access to justice, and reduce vulnerability to gender-based violence.",
+          tech: ["C#", "ASP.NET Core", "CSS"],
+          image: "/projects/mater.png",
+          href: "https://materfamilia-hpdvhschf6frb5cy.canadacentral-01.azurewebsites.net/",
         },
       ],
       skillSections: [
@@ -410,13 +411,14 @@ export const translations = {
           image: "/projects/Dyakana.PNG",
           href: "https://dykanawebapp20250808122525-gqenasejgmhqfgga.canadacentral-01.azurewebsites.net/",
         },
+        // CHANGED: Adicionado Materfamilia para aparecer na pagina /technology em portugues.
         {
-          title: "Materfamilia Website",
+          title: "Website da Materfamilia",
           description:
-            "A Materfamilia é uma empresa social dedicada a capacitar agregados familiares chefiados por mulheres através de intervenções jurídicas, financeiras e de coaching. O objetivo é restaurar a estabilidade financeira, melhorar o acesso à justiça e reduzir a vulnerabilidade à violência de género.",
-          tech: ["C#", "ASP.NET Core", "Azure", "SQL"],
-          image: "/projects/Dyakana.PNG",
-          href: "https://materfamilia-hpdvhschf6frb5cy.canadacentral-01.azurewebsites.net",
+            "A Materfamilia e uma empresa social dedicada ao empoderamento de agregados familiares chefiados por mulheres (FHH16), por meio de intervencoes juridicas, financeiras e de coaching. O objetivo e restaurar a estabilidade financeira, ampliar o acesso a justica e reduzir a vulnerabilidade a violencia baseada no genero.",
+          tech: ["C#", "ASP.NET Core", "CSS"],
+          image: "/projects/mater.png",
+          href: "https://materfamilia-hpdvhschf6frb5cy.canadacentral-01.azurewebsites.net/",
         },
       ],
       skillSections: [

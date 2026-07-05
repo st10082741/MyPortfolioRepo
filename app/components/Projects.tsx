@@ -39,16 +39,21 @@ const projects = [
     description:
       "DK is a strategic partner that supports mining projects from concession acquisition to mine closure, delivering expertise throughout every stage of the mining value chain.",
     tech: ["C#", "ASP.NET Core", "Azure", "SQL"],
-    image: "/projects/Dyakana.PNG",
+    image: "/projects/DykanaPic.png",
     href: "https://dykanawebapp20250808122525-gqenasejgmhqfgga.canadacentral-01.azurewebsites.net/",
   },
+
   {
-    title: "Materfamilia Website",
+    // CHANGED (PT): Projeto real da Materfamilia com resumo em portugues.
+    title: "Website da Materfamilia",
     description:
-      "Materfamilia is a social enterprise dedicated to empowering female-headed households through legal, financial, and coaching interventions. It aims to restore financial stability, improve access to justice, and reduce vulnerability to gender-based violence.",
-    tech: ["C#", "ASP.NET Core", "Azure", "SQL"],
-    image: "/projects/Dyakana.PNG",
-    href: "https://materfamilia-hpdvhschf6frb5cy.canadacentral-01.azurewebsites.net",
+      "A Materfamilia e uma empresa social dedicada ao empoderamento de agregados familiares chefiados por mulheres (FHH16), por meio de intervencoes juridicas, financeiras e de coaching. O objetivo e restaurar a estabilidade financeira, ampliar o acesso a justica e reduzir a vulnerabilidade a violencia baseada no genero.",
+    // CHANGED: Stack real usada neste projeto.
+    tech: ["C#", "ASP.NET Core", "CSS"],
+    // CHANGED: Imagem local confirmada em public/projects/mater.png.
+    image: "/projects/mater.png",
+    // CHANGED: Link real do website em producao.
+    href: "https://materfamilia-hpdvhschf6frb5cy.canadacentral-01.azurewebsites.net/",
   },
 ];
 
