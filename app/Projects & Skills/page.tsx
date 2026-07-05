@@ -95,7 +95,7 @@ export default function TechnologyPage() {
             Top summary area to communicate your profile quickly. */}
         <section className="rounded-3xl border border-amber-200/70 bg-gradient-to-br from-white via-amber-50/60 to-cyan-50/60 p-8 shadow-xl shadow-amber-100/40 dark:border-white/10 dark:bg-slate-900/70 dark:shadow-none md:p-12">
           <p className="text-sm font-semibold uppercase tracking-[0.2em] text-amber-700 dark:text-amber-300">
-            Projects & Skills
+            Technology Profile
           </p>
           <h1 className="mt-3 text-4xl font-bold tracking-tight md:text-5xl">
             Building reliable products from idea to delivery

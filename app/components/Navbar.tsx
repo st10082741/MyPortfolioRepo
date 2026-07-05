@@ -5,12 +5,12 @@ export default function Navbar() {
     <header className="fixed top-0 left-0 w-full bg-black/80 backdrop-blur z-50">
       <nav className="mx-auto max-w-6xl px-6 py-4 flex items-center justify-between">
         <Link href="/" className="font-semibold tracking-wide text-white">
-          Victor Sumbo
+          Home
         </Link>
 
         <div className="flex gap-5 text-sm text-gray-300">
           <Link href="/technology" className="hover:text-white">
-            Technology
+            Projects & Skills
           </Link>
           <Link href="/focus" className="hover:text-white">
             Focus
