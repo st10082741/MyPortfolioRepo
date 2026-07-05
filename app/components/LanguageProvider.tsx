@@ -131,57 +131,6 @@ export const translations = {
       skillsHeading: "Technical Skills",
       skillsCopy: "Organized by capability areas from my CV.",
       toolsHeading: "Tools I Use",
-      projects: [
-        {
-          title: "LingoChat (Real-time Translation Chat App)",
-          description:
-            "A chat app concept focused on real-time translation and language detection to support multilingual conversations.",
-          tech: ["Next.js", "TypeScript", "APIs", "UI/UX"],
-          image: "/projects/lingochat.jpg",
-          href: "https://www.youtube.com/watch?v=g4qtV2MkSrs&t=248s",
-        },
-        {
-          title: "International Payment system (Banking app)",
-          description:
-            "The system implements secure customer registration and authentication with protection against brute-force attacks. It supports local and international payments with multi-currency selection.",
-          tech: ["Kotlin", "Android", "SQLite", "Firebase"],
-          image: "/projects/internationalPayment.jpg",
-          href: "https://www.youtube.com/watch?v=VVqGxbS9MRM",
-        },
-        {
-          title: "TimeTap (Scheduling App)",
-          description:
-            "A scheduling solution for task planning, reminders, and structured appointment workflows.",
-          tech: ["React", "TypeScript", "SQL"],
-          image: "/projects/TimetapPic.jpg",
-          href: "https://www.youtube.com/watch?v=LbB8C7H4UAc",
-        },
-        {
-          title: "Kipido (Glass Repair Service Website)",
-          description:
-            "A business website for service visibility, quote requests, and customer communication with MVC architecture.",
-          tech: ["C# / MVC", "HTML", "CSS"],
-          image: "/projects/KipidoPic.png",
-          href: "https://kipidowebapp20250811114617-grepejakgchaceh5.australiacentral-01.azurewebsites.net/",
-        },
-        {
-          title: "Dykana Website",
-          description:
-            "DK is a strategic partner that supports mining projects from concession acquisition to mine closure, delivering expertise throughout every stage of the mining value chain.",
-          tech: ["C#", "ASP.NET Core", "Azure", "SQL"],
-          image: "/projects/Dyakana.PNG",
-          href: "https://dykanawebapp20250808122525-gqenasejgmhqfgga.canadacentral-01.azurewebsites.net/",
-        },
-        // CHANGED: Added Materfamilia so it renders on the /technology page in English.
-        {
-          title: "Materfamilia Website",
-          description:
-            "Materfamilia is a social enterprise focused on empowering female-headed households (FHH16) through legal, financial, and coaching interventions to restore financial stability, expand access to justice, and reduce vulnerability to gender-based violence.",
-          tech: ["C#", "ASP.NET Core", "CSS"],
-          image: "/projects/mater.png",
-          href: "https://materfamilia-hpdvhschf6frb5cy.canadacentral-01.azurewebsites.net/",
-        },
-      ],
       skillSections: [
         {
           title: "Programming Languages",
@@ -370,57 +319,6 @@ export const translations = {
       skillsHeading: "Competências Técnicas",
       skillsCopy: "Organizadas por áreas de capacidade do meu CV.",
       toolsHeading: "Ferramentas que uso",
-      projects: [
-        {
-          title: "LingoChat (Aplicação de Chat com Tradução em Tempo Real)",
-          description:
-            "Um conceito de aplicação de chat focado em tradução em tempo real e deteção de idioma para apoiar conversas multilíngues.",
-          tech: ["Next.js", "TypeScript", "APIs", "UI/UX"],
-          image: "/projects/lingochat.jpg",
-          href: "https://www.youtube.com/watch?v=g4qtV2MkSrs&t=248s",
-        },
-        {
-          title: "Sistema de Pagamentos Internacional (Aplicação Bancária)",
-          description:
-            "O sistema implementa registo seguro e autenticação de clientes, com suporte a pagamentos locais e internacionais e seleção de várias moedas.",
-          tech: ["Kotlin", "Android", "SQLite", "Firebase"],
-          image: "/projects/internationalPayment.jpg",
-          href: "https://www.youtube.com/watch?v=VVqGxbS9MRM",
-        },
-        {
-          title: "TimeTap (Aplicação de Agendamento)",
-          description:
-            "Uma solução de agendamento para planeamento de tarefas, lembretes e fluxos de trabalho de marcação.",
-          tech: ["React", "TypeScript", "SQL"],
-          image: "/projects/TimetapPic.jpg",
-          href: "https://www.youtube.com/watch?v=LbB8C7H4UAc",
-        },
-        {
-          title: "Kipido (Website de Reparação de Vidros)",
-          description:
-            "Um website de negócio para visibilidade de serviços, pedidos de orçamento e comunicação com clientes com arquitetura MVC.",
-          tech: ["C# / MVC", "HTML", "CSS"],
-          image: "/projects/KipidoPic.png",
-          href: "https://kipidowebapp20250811114617-grepejakgchaceh5.australiacentral-01.azurewebsites.net/",
-        },
-        {
-          title: "Dykana Website",
-          description:
-            "A DK é uma parceira estratégica que apoia projetos mineiros desde a aquisição de concessões até ao encerramento da mina, oferecendo experiência em todas as etapas da cadeia de valor mineira.",
-          tech: ["C#", "ASP.NET Core", "Azure", "SQL"],
-          image: "/projects/Dyakana.PNG",
-          href: "https://dykanawebapp20250808122525-gqenasejgmhqfgga.canadacentral-01.azurewebsites.net/",
-        },
-        // CHANGED: Adicionado Materfamilia para aparecer na pagina /technology em portugues.
-        {
-          title: "Website da Materfamilia",
-          description:
-            "A Materfamilia e uma empresa social dedicada ao empoderamento de agregados familiares chefiados por mulheres (FHH16), por meio de intervencoes juridicas, financeiras e de coaching. O objetivo e restaurar a estabilidade financeira, ampliar o acesso a justica e reduzir a vulnerabilidade a violencia baseada no genero.",
-          tech: ["C#", "ASP.NET Core", "CSS"],
-          image: "/projects/mater.png",
-          href: "https://materfamilia-hpdvhschf6frb5cy.canadacentral-01.azurewebsites.net/",
-        },
-      ],
       skillSections: [
         {
           title: "Linguagens de Programação",

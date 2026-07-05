@@ -3,11 +3,13 @@
 // This page shows the projects and skills content in the currently selected language.
 import ProjectCard from "../components/ProjectCard";
 import { translations, useLanguage } from "../components/LanguageProvider";
+import { getLocalizedProjects } from "../data/projects";
 
 export default function TechnologyPage() {
   // The projects and skills page reads all of its text from the shared translations.
   const { language } = useLanguage();
   const t = translations[language].technology;
+  const projects = getLocalizedProjects(language);
 
   return (
     // Main page background + text color with light/dark support.
@@ -73,14 +75,14 @@ export default function TechnologyPage() {
           </div>
 
           <div className="mt-7 grid gap-5 md:grid-cols-2 xl:grid-cols-3">
-            {t.projects.map((project) => (
+            {projects.map((project) => (
               <ProjectCard
-                key={project.title}
+                key={project.id}
                 title={project.title}
                 description={project.description}
-                tech={[...project.tech]}
-                image={"image" in project ? project.image : undefined}
-                href={"href" in project ? project.href : undefined}
+                tech={project.tech}
+                image={project.image}
+                href={project.href}
               />
             ))}
           </div>
