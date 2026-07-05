@@ -15,6 +15,7 @@ export default function Navbar() {
           <Link href="/focus" className="hover:text-white">
             Focus
           </Link>
+          {/* Use a direct home-page anchor so the browser jumps quickly to the contact section. */}
           <a href="/#contact" className="hover:text-white">
             Contact
           </a>

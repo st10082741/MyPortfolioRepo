@@ -23,6 +23,7 @@ export default function Home() {
         <Skills />
 
         <Education />
+        {/* The contact section has its own id so the navbar can jump directly to it. */}
         <Contact />
       </div>
     </main>
