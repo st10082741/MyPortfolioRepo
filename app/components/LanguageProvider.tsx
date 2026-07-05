@@ -164,6 +164,22 @@ export const translations = {
           image: "/projects/KipidoPic.png",
           href: "https://kipidowebapp20250811114617-grepejakgchaceh5.australiacentral-01.azurewebsites.net/",
         },
+        {
+          title: "Dykana Website",
+          description:
+            "DK is a strategic partner that supports mining projects from concession acquisition to mine closure, delivering expertise throughout every stage of the mining value chain.",
+          tech: ["C#", "ASP.NET Core", "Azure", "SQL"],
+          image: "/projects/Dyakana.PNG",
+          href: "https://dykanawebapp20250808122525-gqenasejgmhqfgga.canadacentral-01.azurewebsites.net/",
+        },
+        {
+          title: "Materfamilia Website",
+          description:
+            "Materfamilia is a social enterprise dedicated to empowering female-headed households through legal, financial, and coaching interventions. It aims to restore financial stability, improve access to justice, and reduce vulnerability to gender-based violence.",
+          tech: ["C#", "ASP.NET Core", "Azure", "SQL"],
+          image: "/projects/Dyakana.PNG",
+          href: "https://materfamilia-hpdvhschf6frb5cy.canadacentral-01.azurewebsites.net",
+        },
       ],
       skillSections: [
         {
@@ -385,6 +401,22 @@ export const translations = {
           tech: ["C# / MVC", "HTML", "CSS"],
           image: "/projects/KipidoPic.png",
           href: "https://kipidowebapp20250811114617-grepejakgchaceh5.australiacentral-01.azurewebsites.net/",
+        },
+        {
+          title: "Dykana Website",
+          description:
+            "A DK é uma parceira estratégica que apoia projetos mineiros desde a aquisição de concessões até ao encerramento da mina, oferecendo experiência em todas as etapas da cadeia de valor mineira.",
+          tech: ["C#", "ASP.NET Core", "Azure", "SQL"],
+          image: "/projects/Dyakana.PNG",
+          href: "https://dykanawebapp20250808122525-gqenasejgmhqfgga.canadacentral-01.azurewebsites.net/",
+        },
+        {
+          title: "Materfamilia Website",
+          description:
+            "A Materfamilia é uma empresa social dedicada a capacitar agregados familiares chefiados por mulheres através de intervenções jurídicas, financeiras e de coaching. O objetivo é restaurar a estabilidade financeira, melhorar o acesso à justiça e reduzir a vulnerabilidade à violência de género.",
+          tech: ["C#", "ASP.NET Core", "Azure", "SQL"],
+          image: "/projects/Dyakana.PNG",
+          href: "https://materfamilia-hpdvhschf6frb5cy.canadacentral-01.azurewebsites.net",
         },
       ],
       skillSections: [

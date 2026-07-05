@@ -1,5 +1,6 @@
 import ProjectCard from "./ProjectCard";
 
+// Project data used by the homepage cards. These are the real project entries you wanted to showcase.
 const projects = [
   {
     title: "LingoChat (Real-time Translation Chat App)",
@@ -32,6 +33,22 @@ const projects = [
     tech: ["C# / MVC", "HTML", "CSS"],
     image: "/projects/KipidoPic.png",
     href: "https://kipidowebapp20250811114617-grepejakgchaceh5.australiacentral-01.azurewebsites.net/",
+  },
+  {
+    title: "Dykana Website",
+    description:
+      "DK is a strategic partner that supports mining projects from concession acquisition to mine closure, delivering expertise throughout every stage of the mining value chain.",
+    tech: ["C#", "ASP.NET Core", "Azure", "SQL"],
+    image: "/projects/Dyakana.PNG",
+    href: "https://dykanawebapp20250808122525-gqenasejgmhqfgga.canadacentral-01.azurewebsites.net/",
+  },
+  {
+    title: "Materfamilia Website",
+    description:
+      "Materfamilia is a social enterprise dedicated to empowering female-headed households through legal, financial, and coaching interventions. It aims to restore financial stability, improve access to justice, and reduce vulnerability to gender-based violence.",
+    tech: ["C#", "ASP.NET Core", "Azure", "SQL"],
+    image: "/projects/Dyakana.PNG",
+    href: "https://materfamilia-hpdvhschf6frb5cy.canadacentral-01.azurewebsites.net",
   },
 ];
 
