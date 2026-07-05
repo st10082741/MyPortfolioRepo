@@ -11,12 +11,12 @@ export default function Navbar() {
 
   return (
     <header className="fixed top-0 left-0 w-full bg-black/80 backdrop-blur z-50">
-      <nav className="mx-auto max-w-6xl px-6 py-4 flex items-center justify-between">
+      <nav className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-3 px-4 py-3 sm:px-6 sm:py-4">
         <Link href="/" className="font-semibold tracking-wide text-white">
           {t.home}
         </Link>
 
-        <div className="flex items-center gap-5 text-sm text-gray-300">
+        <div className="flex flex-wrap items-center gap-3 text-sm text-gray-300">
           <Link href="/technology" className="hover:text-white">
             {t.projectsSkills}
           </Link>
@@ -27,23 +27,19 @@ export default function Navbar() {
           <a href="/#contact" className="hover:text-white">
             {t.contact}
           </a>
-          {/* This small toggle lets visitors switch between English and Portuguese instantly. */}
-          <div className="flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-2 py-1">
-            <button
-              type="button"
-              onClick={() => setLanguage("en")}
-              className={`rounded-full px-2 py-1 text-xs font-semibold ${language === "en" ? "bg-white text-slate-950" : "text-gray-300"}`}
-            >
-              EN
-            </button>
-            <button
-              type="button"
-              onClick={() => setLanguage("pt")}
-              className={`rounded-full px-2 py-1 text-xs font-semibold ${language === "pt" ? "bg-white text-slate-950" : "text-gray-300"}`}
-            >
-              PT
-            </button>
-          </div>
+          {/* This compact dropdown keeps the language switch tidy on mobile. */}
+          <label className="sr-only" htmlFor="language-select">
+            Language
+          </label>
+          <select
+            id="language-select"
+            value={language}
+            onChange={(event) => setLanguage(event.target.value as "en" | "pt")}
+            className="rounded-full border border-white/10 bg-white/10 px-2 py-1 text-xs font-semibold text-white outline-none"
+          >
+            <option value="en">EN</option>
+            <option value="pt">PT</option>
+          </select>
         </div>
       </nav>
     </header>
