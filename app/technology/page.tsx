@@ -43,7 +43,7 @@ const projects = [
 const skillSections = [
   {
     title: "Programming Languages",
-    items: ["C#", "Javascript", "HTML", "CSS", "Java"],
+    items: ["C#", "Javascript", "HTML", "CSS", "Java", "TypeScript"],
   },
   {
     title: "Databases",
@@ -57,6 +57,9 @@ const skillSections = [
       "Entity Framework",
       "WPF",
       "Windows Forms",
+      "React",
+      "Next.js",
+      "Tailwind CSS",
     ],
   },
   {
