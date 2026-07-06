@@ -25,7 +25,7 @@ export default function Hero() {
 
             <div className="mt-8 flex flex-wrap gap-3">
               <a
-                href="/technology"
+                href="/projects-skills"
                 className="rounded-xl bg-gradient-to-r from-cyan-500 to-emerald-500 px-5 py-3 text-sm font-semibold text-slate-950 transition hover:scale-[1.02]"
               >
                 {t.ctaPrimary}

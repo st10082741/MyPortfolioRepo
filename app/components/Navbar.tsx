@@ -17,7 +17,7 @@ export default function Navbar() {
         </Link>
 
         <div className="flex flex-wrap items-center gap-3 text-sm text-gray-300">
-          <Link href="/technology" className="hover:text-white">
+          <Link href="/projects-skills" className="hover:text-white">
             {t.projectsSkills}
           </Link>
           <Link href="/focus" className="hover:text-white">

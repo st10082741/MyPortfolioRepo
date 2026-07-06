@@ -5,7 +5,7 @@ import ProjectCard from "../components/ProjectCard";
 import { translations, useLanguage } from "../components/LanguageProvider";
 import { getLocalizedProjects } from "../data/projects";
 
-export default function TechnologyPage() {
+export default function ProjectsSkillsPage() {
   // The projects and skills page reads all of its text from the shared translations.
   const { language } = useLanguage();
   const t = translations[language].technology;
