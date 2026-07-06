@@ -39,8 +39,8 @@ export const translations = {
       title: "Victor Sumbo",
       description:
         "Full-stack .NET developer focused on building dependable systems from concept to delivery.",
-      ctaPrimary: "Explore Technology",
-      ctaSecondary: "View Focus",
+      ctaPrimary: "Explore my Projects",
+      ctaSecondary: "View areas of focus",
       ctaCv: "Download CV",
       metrics: [
         { value: "1+", label: "Years across multiple sectors" },
@@ -181,7 +181,7 @@ export const translations = {
         "Where strategy, design, and technology meet to create real impact",
       description:
         "This is where ideas turn into thoughtful products, reliable systems, and practical solutions built with purpose.",
-      ctaPrimary: "View Technology Profile",
+      ctaPrimary: "View Technical Profile",
       ctaSecondary: "Email Me",
       currentFocus: "Current Focus",
       outcomesHeading: "Aligned with outcomes",
@@ -225,7 +225,7 @@ export const translations = {
       description:
         "Desenvolvedor full-stack .NET focado em criar sistemas confiáveis, desde a ideia até à entrega.",
       ctaPrimary: "Explorar Projetos",
-      ctaSecondary: "Ver Foco",
+      ctaSecondary: "Ver áreas de foco",
       ctaCv: "Descarregar CV",
       metrics: [
         { value: "1+", label: "Anos em vários setores" },
