@@ -117,6 +117,9 @@ export const translations = {
     technology: {
       eyebrow: "Projects & Skills",
       heading: "Building reliable products from idea to delivery",
+       // Project card button translations
+     viewProject: "View Project",
+     watchAdminDemo: "▶ Watch Admin Demo",
       description:
         "I design and build full-stack solutions with a focus on clean architecture, maintainability, and measurable business outcomes.",
       cta: "See My Focus",
@@ -302,6 +305,9 @@ export const translations = {
     technology: {
       eyebrow: "Projetos & Habilidades",
       heading: "Construir produtos fiáveis da ideia à entrega",
+       // Traduções dos botões dos cartões de projetos
+      viewProject: "Ver Projeto",
+      watchAdminDemo: "▶ Ver Demonstração do Painel Administrativo",
       description:
         "Desenho e construo soluções full-stack com foco em arquitetura limpa, manutenibilidade e resultados concretos para o negócio.",
       cta: "Ver o meu Foco",

@@ -1,40 +1,54 @@
+"use client";
 import Image from "next/image";
+import { useLanguage, translations } from "./LanguageProvider";
 
-// Props are the inputs this component receives from the parent page.
-// Think of this as a contract for what a project card needs to render.
+// Technology: TypeScript + React (TSX) + Next.js
+// Purpose: Reusable portfolio project card that supports a public
+// application link and an optional video demonstration link.
+
 type ProjectCardProps = {
   title: string;
   description: string;
   tech: string[];
-  // `image` expects a path from /public, for example: "/projects/lingochat.jpg"
-  // If you add a new image file to public/projects, pass that path from page.tsx.
+
+  // Path to a screenshot inside the /public directory.
   image?: string;
-  href?: string; // Optional: some projects may not have a public link yet.
+
+  // Public-facing application or project URL.
+  href?: string;
+
+  // Optional demonstration video for restricted features,
+  // such as an administrative dashboard.
+  demoUrl?: string;
 };
 
-// Reusable card component for one project.
-// The Technology page maps over project data and renders this component for each item.
+// Renders an individual portfolio project.
+// Only projects with demoUrl will display the second button.
 export default function ProjectCard({
   title,
   description,
   tech,
   image,
   href,
+  demoUrl,
 }: ProjectCardProps) {
+
+  // Read the currently selected website language.
+const { language } = useLanguage();
+
+// Get the translated text for the project buttons.
+const buttonText = translations[language].technology;
   return (
-    // Main card container with light/dark styles and hover animation.
     <article className="group flex h-full flex-col rounded-2xl border border-teal-100 bg-white/90 p-6 shadow-md shadow-cyan-100/40 transition duration-300 hover:-translate-y-1 hover:border-cyan-300 hover:shadow-xl hover:shadow-cyan-200/60 dark:border-cyan-300/20 dark:bg-slate-900/75 dark:shadow-none">
-      {/* Project screenshot shown at the top of each card */}
+
+      {/* Project screenshot */}
       {image ? (
-        // This block only renders when `image` exists.
-        // If no image is passed, the card still works without a screenshot.
         <div className="mb-4 overflow-hidden rounded-xl border border-cyan-200/80 shadow-sm shadow-cyan-100/60 dark:border-cyan-300/20 dark:shadow-none">
           <Image
             src={image}
             alt={`${title} screenshot`}
             width={1200}
             height={700}
-            // object-cover keeps image nicely cropped in a fixed card area.
             className="h-44 w-full object-cover transition duration-500 group-hover:scale-105"
           />
         </div>
@@ -45,17 +59,15 @@ export default function ProjectCard({
         {title}
       </h3>
 
-      {/* Short project summary */}
+      {/* Project description */}
       <p className="mt-3 text-sm leading-relaxed text-slate-700 dark:text-slate-300">
         {description}
       </p>
 
-      {/* Tech badges:
-          We loop through the `tech` array and create one pill per technology. */}
+      {/* Technology badges */}
       <div className="mt-5 flex flex-wrap gap-2">
         {tech.map((item) => (
           <span
-            // React needs a stable key for each list item.
             key={item}
             className="rounded-full border border-cyan-200 bg-cyan-50 px-3 py-1 text-xs font-medium text-cyan-800 dark:border-cyan-300/30 dark:bg-cyan-500/10 dark:text-cyan-200"
           >
@@ -64,24 +76,41 @@ export default function ProjectCard({
         ))}
       </div>
 
-      <div className="mt-6 pt-2">
-        {/* Conditional rendering:
-            If a link exists, show the CTA button.
-            If not, show a "coming soon" message. */}
+      {/* Project links:
+          The live application remains the primary action.
+          The demo button appears only when demoUrl exists. */}
+      <div className="mt-auto flex flex-wrap gap-3 pt-6">
+
+        {/* Main application link */}
         {href ? (
           <a
             href={href}
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             className="inline-flex items-center rounded-lg bg-gradient-to-r from-cyan-600 to-teal-600 px-4 py-2 text-sm font-semibold text-white transition hover:from-cyan-500 hover:to-emerald-500 dark:from-cyan-500 dark:to-teal-500"
           >
-            View Project
+            {buttonText.viewProject}
           </a>
-        ) : (
+        ) : null}
+
+        {/* Optional admin dashboard demonstration */}
+        {demoUrl ? (
+          <a
+            href={demoUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center rounded-lg border border-cyan-600 px-4 py-2 text-sm font-semibold text-cyan-700 transition hover:bg-cyan-50 dark:border-cyan-400 dark:text-cyan-300 dark:hover:bg-cyan-500/10"
+          >
+            {buttonText.watchAdminDemo}
+          </a>
+        ) : null}
+
+        {/* Fallback when no links are available */}
+        {!href && !demoUrl ? (
           <p className="text-sm font-medium text-slate-500 dark:text-slate-400">
             Project link coming soon.
           </p>
-        )}
+        ) : null}
       </div>
     </article>
   );

@@ -83,6 +83,7 @@ export default function ProjectsSkillsPage() {
                 tech={project.tech}
                 image={project.image}
                 href={project.href}
+                demoUrl={project.demoUrl}
               />
             ))}
           </div>
